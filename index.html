@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Document</title>
+</head>
+<body>
+
+    
+    <div class="container">
+        <form class="form mt-5 w-50" method="post"  autocomplete="off">
+            
+              <input class="form__input form-control  mb-5" type="number" min="0" name="meaning" aria-label="Enter your name" placeholder="enter your money">
+            
+        
+            <select class="form__select form-select w-25 mb-5" name="exchande_rates">
+              <option value="10869">UZS</option>
+              <option value="0.88">EVRO</option>
+              <option value="80.91">RUB</option>
+            </select>   
+        
+            <button class="form__button btn btn-info  mb-5" type="submit">convert</button>
+            <span class="form__result"></span>
+        
+            
+          </form>
+
+          <span class="form__result w-50"></span>
+    </div>
+
+    
+
+
+   
+
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
